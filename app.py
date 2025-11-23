@@ -3,10 +3,8 @@ import pyttsx3
 from datetime import datetime
 import keyboard  
 import time  
-
 from dotenv import load_dotenv 
 import os
-
 from google import genai
 from google.genai.errors import APIError
 
@@ -108,3 +106,4 @@ if __name__ == "__main__":
                 speak("Starting assistant.")
                 assistant_active = True
                 run_assistant_loop()
+
